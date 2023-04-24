@@ -28,9 +28,12 @@ header{
     top: 50%;
     left: 50%;
     border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-button{
+.generateBtn{
     width: 100%;
     display: grid;
     grid-template-columns: 9fr 3fr;
@@ -43,11 +46,27 @@ button{
     background-color: rgb(34, 219, 34);
 } 
 
-button:hover{
+.generateBtn:hover{
     background-color: rgb(24, 243, 24);
     color: white;
     cursor: pointer;
     height: 29px;
+}
+
+.copyBtn{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-top: 15px;   
+}
+
+.copyBtn:hover{
+    cursor: pointer;
+    height: 29px;
+    width: 70px;
 }
 
 h2 {
