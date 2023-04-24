@@ -6,20 +6,26 @@
 }
 
 body{
-    height: 100vh;
-    background: linear-gradient(#295783 50%, #000000) ;
+    height: 70vh;
+    background-image: url(img/hacker-cyber-code-angrfiff.jpg)
 }
 
 header{
-    height: 100vh;
+    height: 45vh;
     display: flex;
     justify-content: center;
     margin-top: 150px;
     font-family: 'poppins';
     color: #dadada;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
-    background-color: #a5bbcf;
+    background-color: rgba(1, 51, 9, 0.7);
     padding: 35px 20px 38px;
     width: 90vw;
     max-width: 512px;
@@ -31,6 +37,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1px;
 }
 
 .generateBtn{
@@ -71,7 +78,7 @@ header{
 
 h2 {
     font-weight: bold;
-    color: black;
+    color: white;
     font-size: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -81,3 +88,10 @@ h2 {
     letter-spacing: 2px;
     margin-top: 10px;
 }
+
+.paragraph {
+    color: white;
+    margin-top: 3px;
+    padding: 2%;
+    text-align: center;
+};
